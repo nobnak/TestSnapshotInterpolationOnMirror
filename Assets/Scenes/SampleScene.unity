@@ -208,8 +208,8 @@ MonoBehaviour:
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 0}
-  autoCreatePlayer: 0
+  playerPrefab: {fileID: 585405634144609395, guid: e9b0ee2b81c7bed498beb2b3c4e46f0f, type: 3}
+  autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs: []
   exceptionsDisconnect: 1
@@ -583,6 +583,22 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
+  serverConfig:
+    sendRate: 30
+    distance: 10
+    speed: 3
+  clientConfig:
+    snapshotSettings:
+      bufferTimeMultiplier: 2
+      bufferLimit: 32
+      catchupNegativeThreshold: -1
+      catchupPositiveThreshold: 1
+      catchupSpeed: 0.019999999552965164
+      slowdownSpeed: 0.03999999910593033
+      driftEmaDuration: 1
+      dynamicAdjustment: 1
+      dynamicAdjustmentTolerance: 1
+      deliveryTimeEmaDuration: 2
 --- !u!23 &2075401142
 MeshRenderer:
   m_ObjectHideFlags: 0
